@@ -9,9 +9,7 @@ public class main {
 
 
         instance.getAllQuestions();
-        User user1= new User("Kamal");
-        instance.addQuestion(new Question("what is string in java", user1));
-        instance.getAllQuestions();
+      
 
     }
     

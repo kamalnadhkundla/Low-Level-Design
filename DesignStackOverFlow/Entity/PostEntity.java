@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-abstract class PostEntity {
+public abstract class PostEntity {
      protected int entityId;
     protected User createdBy;
     protected LocalDate createdDate;
@@ -25,12 +25,13 @@ public PostEntity(String id,String body,User Author){
 }
 
   
-public String getAuthorId(){
+public String getId(){
    
     return this.createdBy.getId();
 }
 public User getAuthor(){
     return this.createdBy;
 }
+
     
 }
