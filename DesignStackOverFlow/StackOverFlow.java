@@ -15,7 +15,7 @@ public class StackOverFlow {
         this.questions = new ArrayList<>();
         
     }
-    Map<Question,User> map = new ConcurrentHashMap<>();
+   
 
     public static StackOverFlow getInstance(){
        
